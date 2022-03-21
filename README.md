@@ -5,7 +5,7 @@ Home: https://github.com/MarcSkovMadsen/panel-chemistry
 
 Package license: Apache-2.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/panel-chemistry-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/panel-chemistry-feedstock/blob/main/LICENSE.txt)
 
 Summary: This package makes it easy to work with Chemistry using Python and HoloViz Panel
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14909&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/panel-chemistry-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14909&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/panel-chemistry-feedstock?branchName=main">
       </a>
     </td>
   </tr>
