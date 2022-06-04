@@ -1,5 +1,5 @@
 {% set name = "panel-chemistry" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/panel-chemistry-{{ version }}.tar.gz
-  sha256: 800cae0d6b1682f0de33e6f93c5cd8f8e234a95e4f59198e652d4132899dc440
+  sha256: b48e1e6719c694c07651bd39db9c0d9c3f04b9f79fc1b56427c00e273edc50a0
 
 build:
   number: 0
@@ -19,10 +19,11 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - bokeh ==2.4.2
-    - panel ==0.12.6
-    - param >=1.12.0
+    - bokeh >=2.4.2
+    - panel >=0.12.7
+    - param >=1.12.1
     - python >=3.7
+    - numpy
 
 test:
   imports:
