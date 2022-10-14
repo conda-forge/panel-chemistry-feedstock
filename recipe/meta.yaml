@@ -1,5 +1,5 @@
 {% set name = "panel-chemistry" %}
-{% set version = "0.0.11" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/panel-chemistry-{{ version }}.tar.gz
-  sha256: 5d780a29e0ae31bce0b03cca6906c29abb9c27152c8cb5de9bb5489308179f4c
+  sha256: af4d3f6d10830a10d65e6c0ef3a7f8a607ff630e0b7729b4fccb4f49da1b73c4
 
 build:
   number: 0
@@ -19,8 +19,8 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - bokeh ==2.4.2
-    - panel ==0.12.6
+    - bokeh ==2.4.3
+    - panel ==0.14.0
     - param >=1.12.0
     - python >=3.7
 
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/MarcSkovMadsen/panel-chemistry
+  home: https://github.com/awesome-panel/panel-chemistry
   summary: This package makes it easy to work with Chemistry using Python and HoloViz Panel
   license: Apache-2.0
   license_file: LICENSE
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - MarcskovMadsen
+    - awesome-panel
