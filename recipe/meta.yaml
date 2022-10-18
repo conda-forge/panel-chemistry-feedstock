@@ -1,5 +1,5 @@
 {% set name = "panel-chemistry" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/panel-chemistry-{{ version }}.tar.gz
-  sha256: 6530526032998c9bccb22dc9be1a7a458e31890b13cf00a19d32dbd979925e1c
+  sha256: 902557db8aeb60a85b5bac7cbd77c44aab33afce2255788ed7db6c36ab5dc701
 
 build:
   number: 0
